@@ -1,0 +1,108 @@
+Return-Path: <mailer-daemon@relay-farm-42.online>
+Delivered-To: victim.user@corporate-enterprise.com
+Received: by 2002:a25:2a83:0:0:0:0:0 with SMTP id p125csp20412ybe;
+        Mon, 26 Oct 2026 09:14:22 -0700 (PDT)
+X-Received: by 2002:a05:6402:2287:b0:463:9b1a:3cb2 with SMTP id e7-20020a056402228700b004639b1a3cb2mr2140131edx.48.1698336862310;
+        Mon, 26 Oct 2026 09:14:22 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1698336862; cv=none;
+        d=google.com; s=arc-20240605;
+        b=qW3...
+Authentication-Results: mx.corporate-enterprise.com;
+        spf=fail (mx.corporate-enterprise.com: domain of mailer-daemon@relay-farm-42.online does not designate 194.26.29.112 as permitted sender) smtp.mailfrom=mailer-daemon@relay-farm-42.online;
+        dkim=fail (bad signature) header.i=@global-logistics-corp.com;
+        dmarc=fail (p=none sp=none) header.from=global-logistics-corp.com
+Received: from smtp.relay-farm-42.online (smtp.relay-farm-42.online. [194.26.29.112])
+        by mx.corporate-enterprise.com with ESMTP id w9si4029108edx.21.2026.10.26.09.14.21
+        for <victim.user@corporate-enterprise.com>;
+        Mon, 26 Oct 2026 09:14:21 -0700 (PDT)
+Received-SPF: fail (mx.corporate-enterprise.com: domain of mailer-daemon@relay-farm-42.online does not designate 194.26.29.112 as permitted sender) client-ip=194.26.29.112;
+Received: from workstation-win10 (unknown [185.190.141.18])
+        by smtp.relay-farm-42.online (Postfix) with ESMTPSA id 3v9xN01Z7qy;
+        Mon, 26 Oct 2026 16:14:18 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=global-logistics-corp.com; s=corp2023;
+        h=from:to:subject:date:message-id:reply-to:mime-version;
+        bh=invalid_tampered_hash_489127==;
+        b=bad_signature_bytes_here...
+Message-ID: <20261026161418.3v9xN01Z7qy@smtp.relay-farm-42.online>
+Date: Mon, 26 Oct 2026 16:14:18 +0000
+From: "Accounts Receivable | Global Logistics" <invoicing@global-logistics-corp.com>
+Reply-To: "Finance Billing Support" <billing-dept@fastmail-sync.xyz>
+To: <victim.user@corporate-enterprise.com>
+Subject: OVERDUE NOTICE: Remittance Invoice #INV-98234-A - Action Required Immediately
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="----=_Part_Main_Boundary_98234"
+X-Priority: 2 (High)
+X-Mailer: PHPMailer 6.5.0 (https://github.com/PHPMailer/PHPMailer)
+X-Originating-IP: [185.190.141.18]
+
+This is a multi-part message in MIME format.
+
+------=_Part_Main_Boundary_98234
+Content-Type: multipart/alternative; boundary="----=_Part_Text_Boundary_98234"
+
+------=_Part_Text_Boundary_98234
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Accounts Payable Department,
+
+Our records indicate that Invoice #INV-98234-A for amount $14,850.00 USD is now 45 days past due. 
+
+Failure to remit payment or confirm the remittance advice within 24 hours will result in automatic transfer to our third-party collections agency and suspension of logistics and freight services.
+
+Please find the detailed remittance worksheet attached (INVOICE_INV98234_PAST_DUE.xlsm). 
+
+Note: If macros are prompted, click "Enable Content" to view encrypted electronic signatures and accounting stamps.
+
+For questions regarding settlement, reply directly to: billing-dept@fastmail-sync.xyz
+
+Sincerely,
+Accounts Receivable Department
+Global Logistics Freight & Forwarding LLC
+finance@global-logistics-corp.com
+
+------=_Part_Text_Boundary_98234
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial, sans-serif; color: #333333; line-height: 1.5; padding: 15px;">
+    <h3 style="color: #b30000;">FINAL REMITTANCE NOTICE: INVOICE #INV-98234-A</h3>
+    <p>Dear Accounts Payable,</p>
+    <p>We are writing to inform you that your account balance of <strong>$14,850.00 USD</strong> remains unsettled despite prior correspondence.</p>
+    <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; border-color: #cccccc; margin: 15px 0;">
+        <tr style="background-color: #f2f2f2;"><th>Invoice Number</th><th>Due Date</th><th>Past Due Days</th><th>Amount Owed</th></tr>
+        <tr><td>INV-98234-A</td><td>12-Sep-2026</td><td>45 Days</td><td>$14,850.00 USD</td></tr>
+    </table>
+    <p style="color: #b30000; font-weight: bold;">
+        Action required: Open the attached detailed invoice statement (INVOICE_INV98234_PAST_DUE.xlsm) and process payment today.
+    </p>
+    <p style="font-size: 12px; background: #fff3cd; border-left: 4px solid #ffeeba; padding: 8px;">
+        <em>Security notice:</em> The attached document contains active electronic macro signatures. If Microsoft Excel displays a security warning, please click <strong>"Enable Editing"</strong> and <strong>"Enable Content"</strong> to render the invoice total and bank coordinates.
+    </p>
+    <p>If you have already paid this invoice, reply to <a href="mailto:billing-dept@fastmail-sync.xyz">billing-dept@fastmail-sync.xyz</a> with the bank wire receipt.</p>
+    <hr style="border: 0; border-top: 1px solid #eeeeee; margin-top: 25px;">
+    <p style="font-size: 11px; color: #777777;">
+        Global Logistics Freight & Forwarding LLC | 100 Portway Plaza, Suite 400 | New York, NY 10004
+    </p>
+</body>
+</html>
+------=_Part_Text_Boundary_98234--
+
+------=_Part_Main_Boundary_98234
+Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12; name="INVOICE_INV98234_PAST_DUE.xlsm"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INVOICE_INV98234_PAST_DUE.xlsm"
+
+UEsDBBQAAAAIAKV2XFcAAAAAAAEAAAAAAAAAAAAAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbIxV
+y27CMBC8I/EP1q5C3EBoRSlSCVUPqFQeYOPNsUrcxH40/feukKq2qpx489jZ2dmZbLbd2wVb
+75T3qgYfSgWd3hVjW0P806k1Q8l8Q97K57r2Y927wR/E8e92zD8hQ7W3g9oK5u8Gf5q5r0w
+yB4N3m73m7d1j0UfD0b0u1eZt3eN93e9eR0eN93e/e2N+T1q7d8b02eD/e93fH4Y3e5eN98f
+b412e6y3u3/fR+b2+f+e6Z3m7q72z+b2z+d3e8e/e3P1+ff+e7m3m8T8c4f/v7h1s9v13d3
+q2x27s5+3t2e5r7d7s19n5ve11e6p7t2v9p7v59X9+d6d9n+8r932N2w7r+f6b927u7d3z6
+f2991+77r3f/763327p19m6t2+9f3d99+e7z/e3f/d513s2+a1+f3q7/m9e15fvd6e33e/5
+3O506vf293/5z/u+/v8AUEsHCJ4928124874001928374829102938472910384729013847
+290138472901384729013847290138472901384729013847290138472901384729013847
+------=_Part_Main_Boundary_98234--

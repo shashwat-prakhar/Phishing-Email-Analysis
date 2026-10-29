@@ -1,0 +1,108 @@
+Return-Path: <bounces@marketing-blast-vps3.biz>
+Delivered-To: victim.user@corporate-enterprise.com
+Received: by 2002:a05:6808:1488:b0:3a1:f1a0:4c12 with SMTP id e8csp2190184oid;
+        Sun, 25 Oct 2026 18:32:04 -0700 (PDT)
+X-Received: by 2002:a05:6402:1894:b0:463:8112:3321 with SMTP id f20-20020a056402189400b0046381123321mr1829104edw.55.1698283924190;
+        Sun, 25 Oct 2026 18:32:04 -0700 (PDT)
+Authentication-Results: mx.corporate-enterprise.com;
+        spf=fail (mx.corporate-enterprise.com: domain of bounces@marketing-blast-vps3.biz does not designate 103.145.13.204 as permitted sender) smtp.mailfrom=bounces@marketing-blast-vps3.biz;
+        dkim=none (no signature found);
+        dmarc=fail (p=reject sp=reject dis=none) header.from=pay-pal-secure-alert.cc
+Received: from node04.marketing-blast-vps3.biz (node04.marketing-blast-vps3.biz. [103.145.13.204])
+        by mx.corporate-enterprise.com with ESMTP id z8si5829104edw.14.2026.10.25.18.32.03
+        for <victim.user@corporate-enterprise.com>;
+        Sun, 25 Oct 2026 18:32:03 -0700 (PDT)
+Received-SPF: fail (mx.corporate-enterprise.com: domain of bounces@marketing-blast-vps3.biz does not designate 103.145.13.204 as permitted sender) client-ip=103.145.13.204;
+Received: from [192.168.1.105] (unknown [91.240.118.77])
+        by node04.marketing-blast-vps3.biz (Postfix) with ESMTPA id 4S9bH81kLm;
+        Mon, 26 Oct 2026 01:31:58 +0000 (UTC)
+Message-ID: <20261026013158.4S9bH81kLm@marketing-blast-vps3.biz>
+Date: Mon, 26 Oct 2026 01:31:58 +0000
+From: "PayPal Account Security" <service-intl-notice@pay-pal-secure-alert.cc>
+Reply-To: "PayPal Fraud Assistance" <disputes@resolve-center-cases.online>
+To: <victim.user@corporate-enterprise.com>
+Subject: Security Alert: Unauthorized Transaction Detected ($649.00 USD - Coinbase Inc.) - Account Limited
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_PP_Alert_771920"
+X-Priority: 1 (Highest)
+X-Mailer: Roundcube Webmail/1.4.11
+
+------=_Part_PP_Alert_771920
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+PAYPAL SECURITY RESOLUTION CENTER
+
+Suspicious Transaction Alert
+
+We detected an unusual sign-in and cryptocurrency purchase of $649.00 USD from an unrecognized IP address in Bucharest, Romania.
+
+Order Summary:
+- Item: BTC Crypto Voucher 0.015 BTC
+- Merchant: Coinbase Direct Europe
+- Amount: $649.00 USD
+- Status: Pre-authorized (Funds Pending Debit)
+
+If you DID NOT authorize this transaction, cancel the order and secure your account immediately:
+
+https://paypal.com.verify-billing-protection.cc/signin?ref=PAY-99214
+
+Need immediate telephone help? Call Fraud Department at +1 (888) 492-0193.
+
+If no response is received within 12 hours, this payment will clear automatically and debit your connected checking account.
+
+Copyright (c) 1999-2026 PayPal, Inc. All rights reserved.
+
+------=_Part_PP_Alert_771920
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: Helvetica, Arial, sans-serif; background-color: #f5f7fa; margin: 0; padding: 20px; }
+.card { max-width: 580px; margin: 0 auto; background: #ffffff; border: 1px solid #dcdcdc; border-radius: 6px; padding: 30px; }
+.header-logo { font-size: 26px; font-weight: bold; font-style: italic; color: #003087; }
+.warning-box { background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 12px 16px; margin: 20px 0; font-size: 14px; }
+.table-order { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 13px; }
+.table-order td { padding: 9px; border-bottom: 1px solid #eeeeee; }
+.btn-pp { display: inline-block; background-color: #0070ba; color: #ffffff !important; text-decoration: none; font-weight: bold; font-size: 15px; padding: 12px 30px; border-radius: 20px; }
+.footer { font-size: 11px; color: #888888; text-align: center; margin-top: 25px; border-top: 1px solid #eeeeee; padding-top: 15px; }
+</style>
+</head>
+<body>
+<div class="card">
+    <div class="header-logo">
+        <span style="color:#003087;">Pay</span><span style="color:#0079c1;">Pal</span>
+    </div>
+    <h2 style="color: #2c2e2f; font-size: 20px; margin-top: 20px;">Unrecognized Activity Detected</h2>
+    <div class="warning-box">
+        <strong>Warning:</strong> Your PayPal account has been temporarily restricted due to suspicious billing activity.
+    </div>
+    <p style="font-size: 14px; color: #444444; line-height: 1.5;">
+        On 25-Oct-2026, an unauthorized debit authorization was initiated from an unrecognized device:
+    </p>
+    <table class="table-order">
+        <tr><td><strong>Merchant:</strong></td><td>Coinbase Global Inc.</td></tr>
+        <tr><td><strong>Transaction ID:</strong></td><td>TXN-99214-PP-SEC</td></tr>
+        <tr><td><strong>Amount:</strong></td><td><strong>$649.00 USD</strong></td></tr>
+        <tr><td><strong>Location:</strong></td><td>Bucharest, Romania (IP: 91.240.118.77)</td></tr>
+    </table>
+    <p style="font-size: 13px; color: #d9534f; font-weight: bold;">
+        If you did not authorize this charge, cancel this payment immediately to prevent fund settlement:
+    </p>
+    <div style="text-align: center; margin: 25px 0;">
+        <a href="https://paypal.com.verify-billing-protection.cc/signin?ref=PAY-99214" class="btn-pp">Cancel Transaction & Secure Account</a>
+    </div>
+    <p style="font-size: 12px; color: #666666; text-align: center;">
+        Or contact our direct Fraud Disputes desk: <strong>+1 (888) 492-0193</strong> (Toll-Free)
+    </p>
+    <div class="footer">
+        PayPal, Inc. | P.O. Box 45950, Omaha, NE 68145<br>
+        Security Reference: PP-DISPUTE-99214-CASE
+    </div>
+</div>
+</body>
+</html>
+------=_Part_PP_Alert_771920--

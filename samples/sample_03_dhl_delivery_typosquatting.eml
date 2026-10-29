@@ -1,0 +1,109 @@
+Return-Path: <delivery-alerts@dh1-express-notification.com>
+Delivered-To: victim.user@corporate-enterprise.com
+Received: by 2002:a05:620a:2044:0:0:0:0 with SMTP id t4csp1084203qkl;
+        Tue, 27 Oct 2026 03:41:10 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IF7h184719284710293
+X-Received: by 2002:a05:6512:124a:b0:4f2:9118:2231 with SMTP id c10-20020a056512124ab004f291182231mr3948191lfe.24.1698403270422;
+        Tue, 27 Oct 2026 03:41:10 -0700 (PDT)
+Authentication-Results: mx.corporate-enterprise.com;
+        spf=pass (mx.corporate-enterprise.com: domain of tracking@dh1-express-notification.com designates 45.142.166.89 as permitted sender) smtp.mailfrom=tracking@dh1-express-notification.com;
+        dkim=pass header.i=@dh1-express-notification.com header.s=default;
+        dmarc=pass (p=reject sp=reject dis=none) header.from=dh1-express-notification.com
+Received: from mail.dh1-express-notification.com (mail.dh1-express-notification.com. [45.142.166.89])
+        by mx.corporate-enterprise.com with ESMTP id m20si1029482lfe.8.2026.10.27.03.41.09
+        for <victim.user@corporate-enterprise.com>;
+        Tue, 27 Oct 2026 03:41:09 -0700 (PDT)
+Received-SPF: pass (mx.corporate-enterprise.com: domain of tracking@dh1-express-notification.com designates 45.142.166.89 as permitted sender) client-ip=45.142.166.89;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dh1-express-notification.com; s=default;
+        h=from:to:subject:date:message-id:reply-to:mime-version;
+        bh=o4Pj9W2q8Z...;
+        b=M28...
+Received: from localhost (unknown [127.0.0.1])
+        by mail.dh1-express-notification.com (Postfix) with ESMTP id 8B901C021F;
+        Tue, 27 Oct 2026 10:41:04 +0000 (UTC)
+Message-ID: <20261027104104.8B901C021F@mail.dh1-express-notification.com>
+Date: Tue, 27 Oct 2026 10:41:04 +0000
+From: "DHL Express Delivery Tracking" <tracking@dh1-express-notification.com>
+Reply-To: "DHL Logistics Support" <support@parcel-redirect-center.click>
+To: <victim.user@corporate-enterprise.com>
+Subject: Delivery Exception: Package #DHL-98402-US On Hold - Address Correction & Customs Clearance
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_DHL_Boundary_819203"
+X-Priority: 1 (Highest)
+
+------=_Part_DHL_Boundary_819203
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+DHL EXPRESS NOTICE: PACKAGE ON HOLD
+
+Tracking Number: DHL-98402-US
+Status: Action Required (Unpaid Customs Fee & Incomplete Address)
+
+Your shipment arriving from Frankfurt, Germany is currently held at our regional distribution hub.
+The delivery courier attempted delivery on 26-Oct-2026 but could not complete dispatch due to an unpaid import tariff of $2.49 USD and missing street suffix information.
+
+To release your shipment for final courier delivery within 24 hours:
+
+1. Update your physical street address:
+   https://track-dhl-parcel-customs.ru/pay/confirm.php?ref=DHL-98402-US
+2. Settle the outstanding processing charge ($2.49 USD).
+
+Notice: Unclaimed packages held for over 48 hours are returned to the overseas origin sorting center at sender's expense.
+
+DHL Express Global Courier Services (c) 2026. All rights reserved.
+
+------=_Part_DHL_Boundary_819203
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { font-family: "Segoe UI", Arial, sans-serif; background-color: #f8f9fa; margin: 0; padding: 20px; }
+.card { max-width: 560px; margin: 0 auto; background: #ffffff; border: 1px solid #e0e0e0; }
+.top-bar { background-color: #ffcc00; padding: 18px 24px; border-bottom: 4px solid #d40511; }
+.logo-text { font-size: 26px; font-weight: 900; color: #d40511; letter-spacing: 1px; }
+.content { padding: 28px 24px; }
+.badge { display: inline-block; background-color: #d40511; color: #ffffff; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 3px; text-transform: uppercase; }
+.detail-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px; }
+.detail-table td { padding: 8px 10px; border-bottom: 1px solid #f0f0f0; }
+.detail-table td.label { color: #666666; width: 40%; font-weight: 600; }
+.btn-dhl { display: inline-block; background-color: #d40511; color: #ffffff !important; text-decoration: none; font-weight: 700; font-size: 14px; padding: 14px 28px; border-radius: 3px; }
+.footer { background-color: #f4f4f4; padding: 16px 24px; font-size: 11px; color: #777777; text-align: center; }
+</style>
+</head>
+<body>
+<div class="card">
+    <div class="top-bar">
+        <span class="logo-text">DHL</span> <span style="font-size: 16px; font-weight: 600; color: #222222; margin-left: 10px;">Express Worldwide</span>
+    </div>
+    <div class="content">
+        <span class="badge">Shipment Exception</span>
+        <h2 style="color: #222222; margin-top: 12px; font-size: 18px;">Package On Hold: Customs Clearance & Address Verification</h2>
+        <p style="font-size: 13px; color: #444444; line-height: 1.5;">
+            We attempted to deliver your international package (Tracking: <strong>DHL-98402-US</strong>), but were unable to finalize drop-off due to an incomplete delivery address and an unpaid customs handling fee of <strong>$2.49 USD</strong>.
+        </p>
+        <table class="detail-table">
+            <tr><td class="label">Waybill Tracking:</td><td><strong>DHL-98402-US</strong></td></tr>
+            <tr><td class="label">Origin:</td><td>Frankfurt Airport Hub (FRA)</td></tr>
+            <tr><td class="label">Status:</td><td style="color: #d40511; font-weight: 700;">Held at Local Distribution Center</td></tr>
+            <tr><td class="label">Customs Duty Fee:</td><td><strong>$2.49 USD</strong></td></tr>
+            <tr><td class="label">Hold Deadline:</td><td><strong style="color: #d40511;">48 Hours Remaining</strong></td></tr>
+        </table>
+        <div style="text-align: center; margin: 28px 0;">
+            <a href="https://track-dhl-parcel-customs.ru/pay/confirm.php?ref=DHL-98402-US" class="btn-dhl">Confirm Address & Pay Customs Fee</a>
+        </div>
+        <p style="font-size: 12px; color: #888888;">
+            Direct Verification Link: <a href="https://track-dhl-parcel-customs.ru/pay/confirm.php?ref=DHL-98402-US" style="color: #0066cc;">https://www.dhl.com/en/express/tracking.html?AWB=98402US</a>
+        </p>
+    </div>
+    <div class="footer">
+        &copy; 2026 Deutsche Post AG / DHL International GmbH. All rights reserved.
+    </div>
+</div>
+</body>
+</html>
+------=_Part_DHL_Boundary_819203--

@@ -1,0 +1,30 @@
+Indicator_Type,Indicator_Value,Defanged_Value,Sample_Reference,Threat_Actor_Role,MITRE_Technique,Reputation_Status
+IPv4,185.220.101.45,185.220.101[.]45,Sample 01 - M365 Phish,MTA Ingress Relay (Tor/Bulletproof),T1566.002,Malicious (AbuseIPDB 100%)
+IPv4,91.215.85.19,91.215.85[.]19,Sample 01 - M365 Phish,Credential Harvester Web Host,T1056.001,Malicious (VirusTotal 34/92)
+Domain,security-microsoft.com,security-microsoft[.]com,Sample 01 - M365 Phish,Spoofed From Header Domain,T1036.005,Suspicious / Impersonation
+Domain,outlook-verify-portal.top,outlook-verify-portal[.]top,Sample 01 - M365 Phish,Attacker Reply-To Domain,T1566.002,Malicious (Newly Registered)
+Domain,compromised-vps.su,compromised-vps[.]su,Sample 01 - M365 Phish,Return-Path Mail Server,T1566.002,Malicious
+Domain,login.microsoftonline.com-auth-session.top,login.microsoftonline[.]com-auth-session[.]top,Sample 01 - M365 Phish,Subdomain Spoofing Landing Domain,T1566.002,Malicious (VirusTotal 34/92)
+URL,https://login.microsoftonline.com-auth-session.top/verify?id=948271,hxxps://login[.]microsoftonline[.]com-auth-session[.]top/verify?id=948271,Sample 01 - M365 Phish,Active Phishing Harvesting Form,T1056.001,Malicious
+IPv4,185.190.141.18,185.190.141[.]18,Sample 02 - Overdue Invoice,PHP Script Injection Bot Host,T1566.001,Malicious
+IPv4,194.26.29.112,194.26.29[.]112,Sample 02 - Overdue Invoice,Outbound Relay Host,T1566.001,Malicious (AbuseIPDB 94%)
+Domain,relay-farm-42.online,relay-farm-42[.]online,Sample 02 - Overdue Invoice,Spam SMTP Server Domain,T1566.001,Malicious
+Domain,fastmail-sync.xyz,fastmail-sync[.]xyz,Sample 02 - Overdue Invoice,Adversary Collection Reply-To,T1566.001,Suspicious
+Domain,payload-delivery.su,payload-delivery[.]su,Sample 02 - Overdue Invoice,C2 Payload Delivery Server,T1105,Malicious
+URL,http://payload-delivery.su/loader.exe,hxxp://payload-delivery[.]su/loader[.]exe,Sample 02 - Overdue Invoice,Second-Stage Trojan Executable,T1105,Malicious
+File_SHA256,6b978d3a12f5e4c8901234abcd567890123456789abcdef0123456789abcdef0,6b978d3a12f5e4c8901234abcd567890123456789abcdef0123456789abcdef0,Sample 02 - Overdue Invoice,Weaponized Excel Macro Workbook,T1566.001,Malicious (VT 48/72)
+IPv4,45.142.166.89,45.142.166[.]89,Sample 03 - DHL Typosquat,Attacker Controlled SMTP Server,T1566.002,Malicious
+Domain,dh1-express-notification.com,dh1-express-notification[.]com,Sample 03 - DHL Typosquat,Typosquatted Lookalike Domain (numeral 1),T1583.001,Malicious (Lookalike)
+Domain,parcel-redirect-center.click,parcel-redirect-center[.]click,Sample 03 - DHL Typosquat,Adversary Reply-To Domain,T1566.002,Suspicious
+Domain,track-dhl-parcel-customs.ru,track-dhl-parcel-customs[.]ru,Sample 03 - DHL Typosquat,Credit Card Theft Phishing Domain,T1056.001,Malicious (VT 29/88)
+URL,https://track-dhl-parcel-customs.ru/pay/confirm.php?ref=DHL-98402-US,hxxps://track-dhl-parcel-customs[.]ru/pay/confirm[.]php?ref=DHL-98402-US,Sample 03 - DHL Typosquat,Counterfeit Payment Gateway,T1056.001,Malicious
+Email,ceo.office.direct@gmail.com,ceo.office.direct@gmail[.]com,Sample 04 - CEO Wire BEC,Display Name Impersonation Address,T1586.002,Malicious Pretexting
+Email,ceo.confidential-m.sterling@exec-offices.live,ceo.confidential-m.sterling@exec-offices[.]live,Sample 04 - CEO Wire BEC,Direct Reply-To Fraud Inbox,T1566,Malicious
+Domain,exec-offices.live,exec-offices[.]live,Sample 04 - CEO Wire BEC,BEC Threat Actor Domain,T1583.001,Malicious
+IPv4,91.240.118.77,91.240.118[.]77,Sample 05 - PayPal Suspension,Adversary Webmail Ingress IP,T1566.002,Malicious
+IPv4,103.145.13.204,103.145.13[.]204,Sample 05 - PayPal Suspension,Outbound Relay Host,T1566.002,Malicious
+Domain,pay-pal-secure-alert.cc,pay-pal-secure-alert[.]cc,Sample 05 - PayPal Suspension,Brand Impersonation Sender Domain,T1036.005,Malicious
+Domain,resolve-center-cases.online,resolve-center-cases[.]online,Sample 05 - PayPal Suspension,Reply-To Fraud Domain,T1566.002,Suspicious
+Domain,verify-billing-protection.cc,verify-billing-protection[.]cc,Sample 05 - PayPal Suspension,Phishing Host Domain,T1566.002,Malicious
+URL,https://paypal.com.verify-billing-protection.cc/signin?ref=PAY-99214,hxxps://paypal[.]com[.]verify-billing-protection[.]cc/signin?ref=PAY-99214,Sample 05 - PayPal Suspension,Credential Harvesting Portal,T1056.001,Malicious (VT 31/90)
+Phone_Number,+18884920193,+1 (888) 492-0193,Sample 05 - PayPal Suspension,Fraudulent Call Center (Vishing),T1566.003,Malicious Callback

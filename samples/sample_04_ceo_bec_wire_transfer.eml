@@ -1,0 +1,50 @@
+Return-Path: <ceo.office.direct@gmail.com>
+Delivered-To: victim.user@corporate-enterprise.com
+Received: by 2002:a05:6808:1405:b0:3a1:ebad:1208 with SMTP id x5csp1189201oid;
+        Wed, 28 Oct 2026 11:05:40 -0700 (PDT)
+X-Received: by 2002:a17:906:1c4e:b0:99c:ef88:6521 with SMTP id y14-20020a1709061c4eb0099cef886521mr2019481ejr.19.1698516340211;
+        Wed, 28 Oct 2026 11:05:40 -0700 (PDT)
+Authentication-Results: mx.corporate-enterprise.com;
+        spf=pass (mx.corporate-enterprise.com: domain of ceo.office.direct@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=ceo.office.direct@gmail.com;
+        dkim=pass header.i=@gmail.com header.s=20230601;
+        dmarc=pass (p=reject sp=reject dis=none) header.from=gmail.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.corporate-enterprise.com with SMTPS id s11sor2840192eje.1.2026.10.28.11.05.39
+        for <victim.user@corporate-enterprise.com>;
+        Wed, 28 Oct 2026 11:05:39 -0700 (PDT)
+Received-SPF: pass (mx.corporate-enterprise.com: domain of ceo.office.direct@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601;
+        h=to:subject:message-id:date:from:reply-to:mime-version;
+        bh=9Kq2m8xW...;
+        b=p8Z0...
+Received: by mail-wm1-f49.google.com with HTTP; Wed, 28 Oct 2026 11:05:38 -0700 (PDT)
+Message-ID: <CAK9_J0VvK1XqL_8rB9n+T24cE_yM6A3Vd5F7G8H9J0K1L2M3N4@mail.gmail.com>
+Date: Wed, 28 Oct 2026 11:05:38 -0700
+From: "Marcus Sterling (CEO)" <ceo.office.direct@gmail.com>
+Reply-To: "Marcus Sterling - Private" <ceo.confidential-m.sterling@exec-offices.live>
+To: <victim.user@corporate-enterprise.com>
+Subject: STRICTLY CONFIDENTIAL // Project Apex - Urgent Wire Transfer Request
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1 (Highest)
+
+Hi Shashwat,
+
+Are you at your desk right now? I am currently dialed into a closed-door executive board acquisition session and cannot take phone calls.
+
+We are finalizing a time-sensitive closing transaction for Project Apex today before market close (3:00 PM EST). 
+
+I need you to process an urgent wire transfer of $48,500.00 to our external M&A legal advisory escrow account immediately. Because of strict SEC non-disclosure regulations around this acquisition, please keep this matter strictly between us for now and do not discuss it with anyone on the floor.
+
+Please reply immediately so I can provide the wire routing coordinates and vendor billing memo. 
+
+Can this be executed within the next 45 minutes?
+
+Best regards,
+
+Marcus Sterling
+Chief Executive Officer
+Corporate Enterprise Global Holdings Inc.
+Sent from my iPad Pro
